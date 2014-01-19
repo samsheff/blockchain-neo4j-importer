@@ -1,0 +1,12 @@
+{
+  "name": "neo4j-blockchain-importer",
+  "version": "0.0.1",
+  "author": "Sam Sheffres",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "node-neo4j": "*"
+  }
+}
