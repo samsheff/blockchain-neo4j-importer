@@ -16,8 +16,7 @@ var crawlBlockchain = function (url) {
 
         res.on('end', function() {
             var json = JSON.parse(body);
-            var transactions = json.tx
-	        createBlock(json);
+            createBlock(json);
         });	    
     });
 };
