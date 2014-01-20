@@ -7,6 +7,6 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "node-neo4j": "*"
+    "node-neo4j": "1.0.5"
   }
 }
